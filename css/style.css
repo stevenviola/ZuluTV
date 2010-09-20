@@ -1,0 +1,374 @@
+
+.loadmask {
+    background-color: #222;
+}
+.loadmask-msg {
+    border:none;
+    background: #222;
+    padding:2px;
+    margin: auto;
+    text-align: center;
+}
+.loadmask-msg div {
+    padding:5px;
+    background: #444 url('/img/loading.gif') no-repeat 5px 5px;
+    line-height: 16px;
+    height: 32px;
+    width: 32px;
+	border:none;
+    color:#222;
+    font:normal 11px tahoma, arial, helvetica, sans-serif;
+    cursor:wait;
+}
+.ui-progressbar{
+	height: 5px;
+    width: 90px;
+}
+
+body {
+	background-color:#000000;
+	color:#ffffff;
+	font: 14px Arial, Helvetica, sans-serif;
+}
+
+#breadcrumb {
+    font: 14px Arial, Helvetica, sans-serif;
+    background-image:url('bc_bg.png'); 
+    background-repeat:repeat-x;
+    height:30px;
+    line-height:30px;
+    color:#9b9b9b;
+    border:solid 1px #cacaca;
+    width:100%;
+    overflow:hidden;
+    padding:0px;
+	position:fixed;
+	z-index:999;
+	top:0px;
+	left:0px;
+}
+
+#bcelement img{
+	height:30px;
+	width:24px;
+}
+
+#bcelement {
+    list-style-type:none;
+    float:left;
+    padding-left:10px;
+}
+
+#bcelement a {
+    height:30px;
+    display:block;
+    background-image:url('bc_separator.png'); 
+    background-repeat:no-repeat; 
+    background-position:right;
+    padding-right: 15px;
+    text-decoration: none;
+    color:#454545;
+}
+
+.home {
+    border: none;
+	vertical-align: middle;
+}
+
+#breadcrumb a:hover {
+    color:#35acc5;
+}
+
+#searchForm input {
+	margin-top: 4px;
+}
+
+#footer {
+	font: 14px Arial, Helvetica, sans-serif;
+    background-image:url('bc_bg.png'); 
+    background-repeat:repeat-x;
+    height:30px;
+    line-height:30px;
+    color:#9b9b9b;
+    border:solid 1px #cacaca;
+    width:100%;
+    overflow:hidden;
+    bottom:0px;
+	left:0px;
+	position:fixed;
+	z-index:999;
+}
+
+#show {
+	width:90%;
+	position:relative;
+	margin-top:40px;
+	margin-bottom:40px;
+	max-width:1083px;
+	min-width:640px;
+}
+
+.items {
+	margin: 27px;
+	height: 300px;
+	padding: 10px;
+	float:left;
+}
+
+img.poster { 
+    float: left; 
+    margin: 27px;
+	width: 150px;
+	height: 220px;
+	vertical-align: text-bottom;
+	background: url("/img/loading.gif") no-repeat center center;
+}
+
+img.poster:hover { 
+    float: left; 
+    margin: 20px;
+	width: 150px;
+	border:7px solid #67C8FF;
+}
+
+.title {
+	color:#ffffff;
+	margin-left:27px;
+}
+
+.title:hover {
+	color:#67C8FF;
+}
+
+#gallery li {
+        display: inline-block;
+        list-style: none;
+        width: 175px;
+        float: left;
+       /*  margin: 10px 10px 10px 10px; */
+        text-align: left;
+		color:#ffffff;
+}
+
+.rss{
+	margin-left:27px;
+	margin-right:15px;
+	color:#ffffff;
+}
+
+.rss:hover {
+	color:#67C8FF;
+}
+
+.rss:hover img{
+	background-color:#67C8FF;
+	border-style:none;
+	width: 15px;
+	height: 15px;
+}
+
+img.rssIcon {
+	background-color:#ffffff;
+	border-style:none;
+	width: 15px;
+	height: 15px;
+}
+
+img.fanart {
+	max-height: 200px;
+	width: 100%;
+	position: relative;
+	background: url("/img/loading.gif") no-repeat center center;
+}
+
+img.thumbnail {
+	width: 150px;
+	height: 100px;
+	border:solid 2px #666666;
+	float:left;
+}
+
+#seasonSelector {
+	margin-top:10px;
+	margin-bottom:10px;
+	font: 15px Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	margin-bottom:4px;
+}
+
+.seasonItems {
+	margin-left: 3px;
+	padding-left:2px;
+	padding-right:2px
+}
+
+.seasonItems:hover {
+	color:#67C8FF;
+/* 	background-color:#67C8FF;
+	border-style:none; */
+}
+
+#subscribeButton {
+	font: 15px Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	margin-top:7px;
+	margin-bottom:4px;
+}
+
+#episodes {
+	margin-top:35px;
+}
+
+.episode {
+	margin-top:10px;
+	margin-bottom:10px;
+	overflow:hidden;
+	border:solid 1px #cacaca;
+	border-bottom:solid 1px #666666;
+	background-color:#ecebea;
+	color:#000000;
+	clear: both;
+}
+
+.episode button {
+	border-style:none;
+	margin-bottom: 4px;
+	background-color:transparent;
+}
+
+.episodeTitle {
+	padding: 7px;
+	overflow:hidden;
+	border:solid 1px #cacaca;
+	border-bottom:solid 1px #666666;
+	background-color:#ecebea;
+	color:#000000;
+	clear: both;
+	background-image:url('bc_bg.png'); 
+    background-repeat:repeat-x;
+	float:left;
+	width:100%;
+}
+
+.episodeTitle a {
+    height:30px;
+    background-image:url('separator.png'); 
+    background-repeat:repeat-y; 
+	background-position:right;
+    padding-right: 15px;
+	padding-left: 15px;
+    text-decoration: none;
+    color:#454545;
+}
+
+.optional {
+	margin-top: 10px;
+	padding:10px;
+	height: 120px;
+}
+.download {
+	margin-top: 7px;
+	vertical-align: top;
+	float:right;
+}
+.download a {
+	background-image:url('separator.png'); 
+    background-repeat:repeat-y; 
+    background-position:right;
+    padding-right: 15px;
+	padding-left: 15px;
+    text-decoration: none;
+    color:#454545;
+}
+
+.quality {
+	margin-right: 96px;
+}
+
+.overview {
+	margin-left:10px;
+	margin-right: 210px;
+	padding-right: 15px;
+	float:left;
+}
+
+.extraInfo {
+	float:right;
+	background-image:url('separator.png'); 
+    background-repeat:repeat-y; 
+    background-position:left;	
+	width: 200px;
+	margin-left:10px;
+	margin-bottom:5px;
+	padding-left:15px;
+	white-space:normal;
+}
+
+.rating_bar {
+  width: 110px;
+  background: url('star_x_grey.gif') 0 0 repeat-x;
+}
+
+.rating_bar div {
+  height: 12px;
+  background: url('star_x_orange.gif') 0 0 repeat-x;
+}
+
+.releaseDate {
+	margin-bottom:7px;
+}
+
+/* .unselectedQuality {
+	color: red;
+} */
+
+.selectedQuality {
+	color:#35acc5;
+}
+
+#footer a {
+	height:30px;
+    background-image:url('separator.png'); 
+    background-repeat:repeat-y; 
+    background-position:right;
+    padding-right: 15px;
+	padding-left: 15px;
+    text-decoration: none;
+    color:#454545;
+}
+
+.error {
+	width:75%;
+	background-color:#ecebea;
+	border:10px solid #ff6666;
+	padding:15px;
+	color:#000000;
+	margin-top:100px;
+}
+
+.error img {
+	height: 200px;
+	float: left;
+	padding-right:20px;
+}
+
+.link{
+	cursor:pointer;
+}
+
+.center {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.right {
+	position: absolute;
+	right: 0;
+	margin-right:10px;
+}
+
+.left {
+	position: absolute;
+	left: 0;
+	margin-left:10px;
+}

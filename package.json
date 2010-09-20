@@ -1,0 +1,34 @@
+{
+    "description": "Easily download your favorite TV Shows.", 
+    "bt:libs": [
+        {
+            "url": "http://staging.apps.bittorrent.com/pkgs/apps-sdk.pkg", 
+            "name": "apps-sdk"
+        }, 
+        {
+            "url": "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.js", 
+            "name": "jquery-ui"
+        },
+        {
+            "url": "http://staging.apps.bittorrent.com/pkgs/widgets.pkg", 
+            "name": "widgets"
+        }, 
+        {
+            "url": "http://jquery-loadmask.googlecode.com/svn/trunk/src/jquery.loadmask.js", 
+            "name": "jquery.loadmask"
+        }
+    ], 
+    "bt:publisher": "Steven Viola", 
+    "author": "Steven Viola <steve@stevenviola.com>", 
+    "site": "http://www.stevenviola.com/zulu", 
+    "bt:update_url": "http://www.stevenviola.com/zulu/ZuluTV.btapp", 
+    "version": "0.1", 
+    "bt:description": "Easily download your favorite TV Shows.", 
+    "keywords": [
+        "eztv", 
+        "tv", 
+        "rss"
+    ], 
+    "bt:release_date": "07/20/2010", 
+    "name": "Zulu TV"
+}
